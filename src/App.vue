@@ -1,15 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--  <AxiosOption />-->
+<!--  <UseFetchOption />-->
+  <UseComposable />
+<!--  <Suspense>-->
+<!--    <template #default>-->
+<!--      <SuspenseAxiosOption />-->
+<!--    </template>-->
+<!--    <template #fallback>-->
+<!--      <h1>Loading data...</h1>-->
+<!--    </template>-->
+<!--  </Suspense>-->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import AxiosOption from "@/components/AxiosOption";
+// import SuspenseAxiosOption from "@/components/SuspenseAxiosOption";
+// import UseFetchOption from "@/components/UseFetchOption";
+import UseComposable from "@/components/UseComposable";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // SuspenseAxiosOption,
+    UseComposable,
+    // UseFetchOption,
+    // AxiosOption,
   }
 }
 </script>
